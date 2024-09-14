@@ -9,8 +9,8 @@
       "Itxxwasi ": "pm2 start . --deep-monitoring --attach --name Itxxwasi || node .",
       "start": "pm2 start . --attach --name Itxxwasi",
       "stop": "pm2 stop Itxxwasi",
-      "heroku-postbuild": "git clone https://github.com/DEXTER-BOT-1/RCD-MD.git temp && mv temp/.git .git && rm -rf temp && npx puppeteer@latest install  --y",
-      "fis-heroku-postbuild": "git clone https://github.com/DEXTER-BOT-1/RCD-MD.git temp1 && rsync -av temp1/* ./ && rsync -av temp1/.* ./ && rm -rf temp1 && npm i && npx puppeteer@latest install",
+      "heroku-postbuild": "git clone https://github.com/RCD-MD-MAIN/-.git temp && mv temp/.git .git && rm -rf temp && npx puppeteer@latest install  --y",
+      "fis-heroku-postbuild": "git clone https://github.com/RCD-MD-MAIN/-.git temp1 && rsync -av temp1/* ./ && rsync -av temp1/.* ./ && rm -rf temp1 && npm i && npx puppeteer@latest install",
       "postinstall": "npx puppeteer@latest install --y"
    },
    "author": "RCD",
@@ -75,10 +75,10 @@
    },
    "repository": {
       "type": "git",
-      "url": "git+https://github.com/DEXTER-BOT-1/RCD-MD.git"
+      "url": "git+https://github.com/RCD-MD-MAIN/-.git"
    },
    "bugs": {
-      "url": "https://github.com/DEXTER-BOT-1/RCD-MD/issues"
+      "url": "https://github.com/RCD-MD-MAIN/-.git/issues"
    },
-   "homepage": "https://github.com/DEXTER-BOT-1/RCD-MD"
+   "homepage": "https://github.com/RCD-MD-MAIN/-.git"
 }
